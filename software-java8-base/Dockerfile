@@ -16,4 +16,4 @@ FROM openjdk:8
 
 RUN mkdir -p lib && \
     cd lib && \
-    wget http://release.cytomine.be/java/cytomine-java-client.jar -O cytomine-java-client.jar
+    wget https://github.com/cytomine/Cytomine-java-client/releases/download/v2.0.0/cytomine-java-client.jar -O cytomine-java-client.jar

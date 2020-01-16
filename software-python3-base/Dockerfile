@@ -25,7 +25,7 @@ RUN pip install requests \
     numpy \
     opencv-python-headless
 
-RUN git clone https://github.com/cytomine-uliege/Cytomine-python-client.git && \
+RUN git clone https://github.com/cytomine/Cytomine-python-client.git && git checkout v2.2.0 \
     cd Cytomine-python-client && \
     python setup.py build && \
     python setup.py install
