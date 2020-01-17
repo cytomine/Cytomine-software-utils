@@ -25,7 +25,8 @@ RUN pip install requests \
     numpy \
     opencv-python
 
-RUN git clone https://github.com/cytomine/Cytomine-python-client.git && git checkout v2.2.0 \
+RUN git clone https://github.com/cytomine/Cytomine-python-client.git && \
     cd Cytomine-python-client && \
+    git checkout v2.0.0 && \
     python setup.py build && \
     python setup.py install
