@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM cytomine/software-java8-base
+FROM cytomine/software-java8-base:v2.0.0
 
 RUN apt update -y && apt install -y zip unzip
 
