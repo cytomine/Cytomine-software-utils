@@ -27,6 +27,6 @@ RUN pip install requests \
 
 RUN git clone https://github.com/cytomine/Cytomine-python-client.git && \
     cd Cytomine-python-client && \
-    git checkout v2.1.1 && \
+    git checkout v2.2.0 && \
     python setup.py build && \
     python setup.py install

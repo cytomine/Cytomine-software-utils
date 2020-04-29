@@ -1,4 +1,4 @@
-# Copyright (c) 2009-2018. Authors: see NOTICE file.
+# Copyright (c) 2009-2020. Authors: see NOTICE file.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -27,6 +27,6 @@ RUN pip install requests \
 
 RUN git clone https://github.com/cytomine/Cytomine-python-client.git && \
     cd Cytomine-python-client && \
-    git checkout v2.0.0 && \
+    git checkout v2.2.0 && \
     python setup.py build && \
     python setup.py install
